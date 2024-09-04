@@ -44,22 +44,42 @@ html {
     color: white;
     text-decoration: none;
     transition: all 2ms;
+    padding: 25px;
   }
   nav ul li a:hover {
-    color: white;
-    text-decoration: underline;
+    background-color: gray;
+    
+  
   }
   
   main {
     padding: 20px;
   }
-  
   section {
     background-color: white;
     margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #curriculum ul{
+    display: flex;
+    gap: 10px;
+    padding: 4px;
+  
+  }
+  #curriculum li{
+    list-style: none;
+    text-align: center;
+    background-color:#f4f4f4 ;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  #curriculum h2{
+    font-size: 1em;
+  }
+  #curriculum p{
+    font-size: .98em;
   }
   section h2{
     color: blue;
@@ -68,7 +88,7 @@ html {
   section img {
     max-width: 100%;
     display: block;
-    margin: 20px auto;
+    margin: 19px auto;
   }
   
   footer {
